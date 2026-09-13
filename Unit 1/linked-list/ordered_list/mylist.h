@@ -12,8 +12,8 @@ struct mylist
 {
 	node_t *head_;
 };
-typedef struct mylist mylist_t;
 
+typedef struct mylist mylist_t;
 void init_list(mylist_t*);
 void insert_list(mylist_t*, int key);
 void disp_list(mylist_t*);
