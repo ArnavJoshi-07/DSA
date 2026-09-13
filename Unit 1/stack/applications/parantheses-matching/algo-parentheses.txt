@@ -1,0 +1,5 @@
+1. Init stack
+2. Read expression as string and scan character by character
+3. if char == '(', push placeholder
+4. if char == ')', pop; if stack empty before pop, then expression invalid.
+5. After processing, stack empty.
