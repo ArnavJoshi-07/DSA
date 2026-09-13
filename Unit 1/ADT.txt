@@ -1,0 +1,15 @@
+Abstract Data Type: 
+> Can perform operations
+> Can store various components
+> Components are highly cohesive: Responsible for knowing and managing its own data.
+> Does not need to know whether it will be stored in : 
+    > Stack
+    > Queue
+    > Linked List
+    > Priority Queue 
+    > etc.
+
+> High Cohesion: Each module and component has a focused responsibility and keeps 
+                closely related responsibilities together
+> Low coupling: Different modules/components have minimal 
+dependency on each others internal implementation.
