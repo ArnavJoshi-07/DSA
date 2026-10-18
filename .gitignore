@@ -1,0 +1,14 @@
+# Executables built without an extension (step1, partA, task1, a.out, ...):
+# ignore every file, then re-allow files with an extension, directories and makefiles
+*
+!*.*
+!*/
+!makefile
+!Makefile
+
+# Object files and .exe builds (must come after !*.* to stay ignored)
+*.o
+*.exe
+
+# LibreOffice lock files
+.~lock.*#
