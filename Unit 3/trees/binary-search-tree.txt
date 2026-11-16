@@ -1,0 +1,19 @@
+Binary Search Tree:
+    1. Every Node has a key
+    2. Nodes are inserted based on the key.
+    3. If key of node is less than that of root, node is inserted in left subtree
+    4. If key of node greater than that of root, node is inserted in right subtree
+
+Interface:
+    Create a Tree
+    Destroy
+    Insert key
+    Display tree in Inorder/Preorder/Postorder
+    Find no of node
+    Find no of leaves
+
+Structure of functions:
+    Recursive on nodes and not on tree
+    Model for recursive routine:
+        Empty Tree
+        Tree with left and right subtrees
